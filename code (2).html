@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Girişimci Web Sitesi</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: rgba(0,0,0,0.3);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(8px);
+  }
+  header h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffd700;
+  }
+  .hero {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+  }
+  section {
+    padding: 60px 20px;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer {
+    background: rgba(0,0,0,0.4);
+    color: #ddd;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.9rem;
+  }
+  .link {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .link:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Girişimci Web Sitesi</h1>
+  <nav>
+    <a href="#about">Hakkımda</a>
+    <a href="#projects">Projeler</a>
+    <a href="#contact">İletişim</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h2>Ben Bir Girişimciyim</h2>
+  <p>14 yaşındayım ve bilişim alanında eğitim aldım.</p>
+</div>
+
+<section id="about">
+  <h2>Hakkımda</h2>
+  <p>Bilişim alanında eğitim aldım, Python, Arduino, CSS, Java ve HTML konularında deneyimliyim. Teknofest'e katıldım.</p>
+</section>
+
+<section id="projects">
+  <h2>Projelerim</h2>
+  <p>Patentini aldığım uygulama projelerimden bir parça:</p>
+  <p>Projemiz, insani tedavi arz ederek ambulansın kısa sürede bir engele takılmaksızın yaralıya ulaşımını sağlamaktadır. Ambulanslar için geliştireceğimiz çip sayesinde daha fazla refah bir ulaşım sağlamak için çalışıyoruz.</p>
+  <p>Takılacak olan çip sayesinde trafik ışıklarına yaklaşan ambulans, trafik merkezine bir uyarı gönderecek. Bu uyarı sayesinde gelen ambulans, trafik ışıklarında kargaşa çıkmayacak şekilde yoluna devam edecektir.</p>
+  <p>Daha fazla bilgi için <a href="https://www.teknofest.org" class="link" target="_blank">Teknofest</a> web sitesini ziyaret edebilirsiniz.</p>
+</section>
+
+<section id="contact">
+  <h2>İletişim</h2>
+  <p>Her türlü soru ve önerileriniz için bana ulaşabilirsiniz.</p>
+  <form onsubmit="event.preventDefault(); alert('Mesajınız gönderildi, teşekkürler!');" style="margin-top: 15px;">
+    <input type="text" placeholder="Adınız" required style="padding:10px; width: 80%; max-width: 300px; margin-bottom: 10px; border-radius: 8px; border: none;">
+    <br />
+    <input type="email" placeholder="E-posta" required style="padding:10px; width: 80%; max-width: 300px; margin-bottom: 10px; border-radius: 8px; border: none;">
+    <br />
+    <textarea placeholder="Mesajınız" required style="padding: 10px; width: 80%; max-width: 300px; height: 100px; border-radius: 8px; border: none;"></textarea>
+    <br />
+    <button class="btn-primary" type="submit">Gönder</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2024 Girişimci Web Sitesi. Tüm hakları saklıdır.
+</footer>
+</body>
+</html>
