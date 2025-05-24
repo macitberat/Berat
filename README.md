@@ -1,15 +1,4 @@
 # Berat
 Girişimci
-14 yaşındayım ve bilişim alanında eğitim aldım.
-
-Hakkımda
-Bilişim alanında eğitim aldım, Python, Arduino, CSS, Java ve HTML bilgilerini deneyimledim. Teknofest'e katıldım.
-
-Projelerim
-Patentini uyguladığınız uygulama projelerinden bir parça:
-
-Projemiz, insani tedavi arz ederek ambulansın kısa sürede bir engele takılmadan yaralıya ulaşımını sağlamaktadır. Ambulanslar için geliştireceğimiz çip sayesinde daha fazla refah bir ulaşım sağlamak için çalışıyoruz.
-
-Takılacak çip sayesinde trafik ışıklarına yaklaşan ambulans, trafik hareketi bir uyarı gönderilecek. Bu uyarı sayesinde gelen ambulans, trafik ışıklarında sürdürülmeyecek şekilde devam edecek.
-
-Daha fazla bilgi için Teknofest web sistemini ziyaret edebilirsiniz.
+Ben Berat girişimciyim ve 14 yaşındayım Bilişim alanında eğitim aldım, Python, Arduino, CSS, Java ve HTML işlemlerini deneyimliyim. Teknofest'e katıldım. Patentini aldığım projelerimden bir tanesi:Projemiz insan hayatının önemini arz ederek ambulansın kısa sürede bir engele takılmaksızın yaralıya hastaneye ulaştırması, ambulanslar için geliştireceğimiz çip sayesinde daha refah bir ulaşım sağlamaya çalışmak
+Takılacak olan çip sayesinde trafik ışıklarına yaklaşan ambulans trafik merkezine bir uyarı gidecek bu uyarı sayesinde gelen ambulans trafik ışıklarında kargaşa çıkmayacak şekilde yoluna devam edecektir.
